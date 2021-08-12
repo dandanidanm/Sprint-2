@@ -1,0 +1,49 @@
+.check{
+  display: none;
+}
+input {
+  cursor: pointer;
+}
+
+input:checked{
+ display: none;
+}
+
+input:checked + .check {
+ display: inline-block;
+ position: absolute;
+ right: 0;
+ margin-right: .5rem;
+}
+label {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  position: relative;
+}
+
+
+.formGroupRadios {
+ display: flex;
+ flex-direction: column;
+ color: #fff;
+ width: 360px;
+}
+
+.formGroupRadios > .form-group {
+  padding-left: 15px;
+}
+
+.form-check-label {
+  padding-left: 3px;
+}
+.caracters{
+ width: 100px;
+}
