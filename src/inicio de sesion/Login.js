@@ -36,7 +36,10 @@ export default class Login extends Component {
                     <hr style={hrcolor}></hr>
                     <div className="form-group col auto">
                         <label for="examepleInputEmail1" className="text-white">Correo Electrónico</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Ingrese su correo electrónico"></input>
+                        <input type="email" className="form-control" id="exampleInputEmail1" name="username" placeholder="Ingrese su correo electrónico"></input>
+                        <br></br>
+                        <label for="examepleInputPassword1" className="text-white">Contraseña</label>
+                        <input type="Password" className="form-control" id="exampleInputPassword1" name="Password" placeholder="Ingrese su Clave de Acceso"></input>
                     </div>
                     <br></br>
                     <p class="text-white text-center"><a href="#" style={pcolor}>¿Se te olvidó tu contraseña?</a></p>
