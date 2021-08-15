@@ -1,11 +1,11 @@
 import React from 'react';
-import GameOne from '../components/GameOne';
-
+import Cards2 from '../components/Cards2';
 
 const App = () => {
  return (
   <div>
-   <GameOne />
+   <Cards2 />
+   
   </div>
  )
 }
